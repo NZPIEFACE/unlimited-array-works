@@ -55,12 +55,6 @@ void iterate(void *** reference, int * dim_sizes, int * tier_sizes, int dimensio
 	// Assigning memory to the size of the byte.
 	for (int i = 0; i < tier_sizes[dimensions-2]; i++){
 		a[i] = c + bytesize * i * dim_sizes[dimensions-1];
-		char * d = a[i];
-
-		// Blanking the default memory.
-		for (unsigned int j = 0; j < bytesize * dim_sizes[dimensions-1]; j++){
-			*d++ = 0;
-		}
 	}
 	return;
 }
@@ -83,7 +77,7 @@ void * allocate_n_dimension_array(size_t bytesize, int n, ...){
 
 	size_t total_size = (sum - tier_size[n-1]) * sizeof(void*) + tier_size[n-1] * bytesize;
 
-	void * a = malloc(total_size);
+	void * a = calloc(1, total_size);
 
 	//recurse((void ***) &a, dim_size, tier_size, 0, n, bytesize);
 	iterate((void ***) &a, dim_size, tier_size, n, bytesize);
