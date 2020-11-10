@@ -1,0 +1,1871 @@
+Breakpoint 1 at 0x100401457: file src/main.c, line 65.
+[New Thread 24536.0x5384]
+[New Thread 24536.0x5f6c]
+warning: the debug information found in "/usr/lib/debug//usr/bin/cygwin1.dbg" does not match "/usr/bin/cygwin1.dll" (CRC mismatch).
+
+[New Thread 24536.0x1e84]
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$1 = (unsigned char *) 0x800052730 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$2 = (unsigned char *) 0x800052731 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$3 = (unsigned char *) 0x800052732 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$4 = (unsigned char *) 0x800052733 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$5 = (unsigned char *) 0x800052734 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$6 = (unsigned char *) 0x800052735 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$7 = (unsigned char *) 0x800052736 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$8 = (unsigned char *) 0x800052737 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$9 = (unsigned char *) 0x800052738 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$10 = (unsigned char *) 0x800052739 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$11 = (unsigned char *) 0x80005273a ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$12 = (unsigned char *) 0x80005273b ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$13 = (unsigned char *) 0x80005273c ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$14 = (unsigned char *) 0x80005273d ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$15 = (unsigned char *) 0x80005273e ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$16 = (unsigned char *) 0x800052748 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$17 = (unsigned char *) 0x800052749 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$18 = (unsigned char *) 0x80005274a ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$19 = (unsigned char *) 0x80005274b ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$20 = (unsigned char *) 0x80005274c ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$21 = (unsigned char *) 0x80005274d ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$22 = (unsigned char *) 0x80005274e ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$23 = (unsigned char *) 0x80005274f ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$24 = (unsigned char *) 0x800052750 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$25 = (unsigned char *) 0x800052751 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$26 = (unsigned char *) 0x800052752 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$27 = (unsigned char *) 0x800052753 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$28 = (unsigned char *) 0x800052754 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$29 = (unsigned char *) 0x800052755 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$30 = (unsigned char *) 0x800052756 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$31 = (unsigned char *) 0x800052757 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$32 = (unsigned char *) 0x800052758 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$33 = (unsigned char *) 0x800052759 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$34 = (unsigned char *) 0x80005275a ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$35 = (unsigned char *) 0x80005275b ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$36 = (unsigned char *) 0x800052768 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$37 = (unsigned char *) 0x800052769 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$38 = (unsigned char *) 0x80005276a ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$39 = (unsigned char *) 0x80005276b ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$40 = (unsigned char *) 0x80005276c ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$41 = (unsigned char *) 0x80005276d ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$42 = (unsigned char *) 0x80005276e ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$43 = (unsigned char *) 0x80005276f ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$44 = (unsigned char *) 0x800052770 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$45 = (unsigned char *) 0x800052771 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$46 = (unsigned char *) 0x800052772 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$47 = (unsigned char *) 0x800052773 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$48 = (unsigned char *) 0x800052774 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$49 = (unsigned char *) 0x800052775 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$50 = (unsigned char *) 0x800052776 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$51 = (unsigned char *) 0x800052777 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$52 = (unsigned char *) 0x800052778 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$53 = (unsigned char *) 0x800052779 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$54 = (unsigned char *) 0x80005277a ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$55 = (unsigned char *) 0x80005277b ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$56 = (unsigned char *) 0x800052788 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$57 = (unsigned char *) 0x800052789 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$58 = (unsigned char *) 0x80005278a ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$59 = (unsigned char *) 0x80005278b ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$60 = (unsigned char *) 0x80005278c ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$61 = (unsigned char *) 0x800052748 "\017\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$62 = (unsigned char *) 0x800052749 "\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$63 = (unsigned char *) 0x80005274a "\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$64 = (unsigned char *) 0x80005274b "\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$65 = (unsigned char *) 0x80005274c "\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$66 = (unsigned char *) 0x80005274d "\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$67 = (unsigned char *) 0x80005274e "\025\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$68 = (unsigned char *) 0x80005274f "\026\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$69 = (unsigned char *) 0x800052750 "\027\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$70 = (unsigned char *) 0x800052751 "\030\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$71 = (unsigned char *) 0x800052752 "\031\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$72 = (unsigned char *) 0x800052753 "\032\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$73 = (unsigned char *) 0x800052754 "\033\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$74 = (unsigned char *) 0x800052755 "\034\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$75 = (unsigned char *) 0x800052756 "\035\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$76 = (unsigned char *) 0x800052757 "\036\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$77 = (unsigned char *) 0x800052758 "\037 !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$78 = (unsigned char *) 0x800052759 " !\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$79 = (unsigned char *) 0x80005275a "!\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$80 = (unsigned char *) 0x80005275b "\""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$81 = (unsigned char *) 0x800052768 "#$%&'()*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$82 = (unsigned char *) 0x800052769 "$%&'()*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$83 = (unsigned char *) 0x80005276a "%&'()*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$84 = (unsigned char *) 0x80005276b "&'()*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$85 = (unsigned char *) 0x80005276c "'()*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$86 = (unsigned char *) 0x80005276d "()*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$87 = (unsigned char *) 0x80005276e ")*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$88 = (unsigned char *) 0x80005276f "*+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$89 = (unsigned char *) 0x800052770 "+,-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$90 = (unsigned char *) 0x800052771 ",-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$91 = (unsigned char *) 0x800052772 "-./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$92 = (unsigned char *) 0x800052773 "./0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$93 = (unsigned char *) 0x800052774 "/0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$94 = (unsigned char *) 0x800052775 "0123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$95 = (unsigned char *) 0x800052776 "123456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$96 = (unsigned char *) 0x800052777 "23456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$97 = (unsigned char *) 0x800052778 "3456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$98 = (unsigned char *) 0x800052779 "456"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$99 = (unsigned char *) 0x80005277a "56"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$100 = (unsigned char *) 0x80005277b "6"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$101 = (unsigned char *) 0x800052788 "789:;"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$102 = (unsigned char *) 0x800052789 "89:;"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$103 = (unsigned char *) 0x80005278a "9:;"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$104 = (unsigned char *) 0x80005278b ":;"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$105 = (unsigned char *) 0x80005278c ";"
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$106 = (unsigned char *) 0x80005278d ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$107 = (unsigned char *) 0x80005278e ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$108 = (unsigned char *) 0x80005278f ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$109 = (unsigned char *) 0x800052790 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$110 = (unsigned char *) 0x800052791 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$111 = (unsigned char *) 0x800052792 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$112 = (unsigned char *) 0x800052793 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$113 = (unsigned char *) 0x800052794 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$114 = (unsigned char *) 0x800052795 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$115 = (unsigned char *) 0x800052796 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$116 = (unsigned char *) 0x800052797 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$117 = (unsigned char *) 0x800052798 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$118 = (unsigned char *) 0x800052799 ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$119 = (unsigned char *) 0x80005279a ""
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$120 = (unsigned char *) 0x80005279b ""
+[Thread 24536.0x4190 exited with code 0]
+[Thread 24536.0x5384 exited with code 0]
+[Thread 24536.0x1e84 exited with code 0]
+[Inferior 1 (process 24536) exited normally]
+init.gdb:18: Error in sourced command file:
+No symbol "array" in current context.
+Breakpoint 1 at 0x100401457: file src/main.c, line 65.
+[New Thread 24024.0x5730]
+[New Thread 24024.0x648]
+warning: the debug information found in "/usr/lib/debug//usr/bin/cygwin1.dbg" does not match "/usr/bin/cygwin1.dll" (CRC mismatch).
+
+[New Thread 24024.0x4fa8]
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$1 = (unsigned char *) 0x800052730 ""
+$2 = {0, 0, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$3 = (unsigned char *) 0x800052731 ""
+$4 = {0, 0, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$5 = (unsigned char *) 0x800052732 ""
+$6 = {0, 0, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$7 = (unsigned char *) 0x800052733 ""
+$8 = {0, 0, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$9 = (unsigned char *) 0x800052734 ""
+$10 = {0, 0, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$11 = (unsigned char *) 0x800052735 ""
+$12 = {0, 0, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$13 = (unsigned char *) 0x800052736 ""
+$14 = {0, 0, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$15 = (unsigned char *) 0x800052737 ""
+$16 = {0, 0, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$17 = (unsigned char *) 0x800052738 ""
+$18 = {0, 0, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$19 = (unsigned char *) 0x800052739 ""
+$20 = {0, 0, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$21 = (unsigned char *) 0x80005273a ""
+$22 = {0, 0, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$23 = (unsigned char *) 0x80005273b ""
+$24 = {0, 0, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$25 = (unsigned char *) 0x80005273c ""
+$26 = {0, 0, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$27 = (unsigned char *) 0x80005273d ""
+$28 = {0, 0, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$29 = (unsigned char *) 0x80005273e ""
+$30 = {0, 0, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$31 = (unsigned char *) 0x800052748 ""
+$32 = {0, 0, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$33 = (unsigned char *) 0x800052749 ""
+$34 = {0, 0, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$35 = (unsigned char *) 0x80005274a ""
+$36 = {0, 0, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$37 = (unsigned char *) 0x80005274b ""
+$38 = {0, 0, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$39 = (unsigned char *) 0x80005274c ""
+$40 = {0, 0, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$41 = (unsigned char *) 0x80005274d ""
+$42 = {0, 1, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$43 = (unsigned char *) 0x80005274e ""
+$44 = {0, 1, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$45 = (unsigned char *) 0x80005274f ""
+$46 = {0, 1, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$47 = (unsigned char *) 0x800052750 ""
+$48 = {0, 1, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$49 = (unsigned char *) 0x800052751 ""
+$50 = {0, 1, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$51 = (unsigned char *) 0x800052752 ""
+$52 = {0, 1, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$53 = (unsigned char *) 0x800052753 ""
+$54 = {0, 1, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$55 = (unsigned char *) 0x800052754 ""
+$56 = {0, 1, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$57 = (unsigned char *) 0x800052755 ""
+$58 = {0, 1, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$59 = (unsigned char *) 0x800052756 ""
+$60 = {0, 1, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$61 = (unsigned char *) 0x800052757 ""
+$62 = {0, 1, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$63 = (unsigned char *) 0x800052758 ""
+$64 = {0, 1, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$65 = (unsigned char *) 0x800052759 ""
+$66 = {0, 1, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$67 = (unsigned char *) 0x80005275a ""
+$68 = {0, 1, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$69 = (unsigned char *) 0x80005275b ""
+$70 = {0, 1, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$71 = (unsigned char *) 0x800052768 ""
+$72 = {0, 1, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$73 = (unsigned char *) 0x800052769 ""
+$74 = {0, 1, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$75 = (unsigned char *) 0x80005276a ""
+$76 = {0, 1, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$77 = (unsigned char *) 0x80005276b ""
+$78 = {0, 1, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$79 = (unsigned char *) 0x80005276c ""
+$80 = {0, 1, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$81 = (unsigned char *) 0x80005276d ""
+$82 = {0, 2, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$83 = (unsigned char *) 0x80005276e ""
+$84 = {0, 2, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$85 = (unsigned char *) 0x80005276f ""
+$86 = {0, 2, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$87 = (unsigned char *) 0x800052770 ""
+$88 = {0, 2, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$89 = (unsigned char *) 0x800052771 ""
+$90 = {0, 2, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$91 = (unsigned char *) 0x800052772 ""
+$92 = {0, 2, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$93 = (unsigned char *) 0x800052773 ""
+$94 = {0, 2, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$95 = (unsigned char *) 0x800052774 ""
+$96 = {0, 2, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$97 = (unsigned char *) 0x800052775 ""
+$98 = {0, 2, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$99 = (unsigned char *) 0x800052776 ""
+$100 = {0, 2, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$101 = (unsigned char *) 0x800052777 ""
+$102 = {0, 2, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$103 = (unsigned char *) 0x800052778 ""
+$104 = {0, 2, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$105 = (unsigned char *) 0x800052779 ""
+$106 = {0, 2, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$107 = (unsigned char *) 0x80005277a ""
+$108 = {0, 2, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$109 = (unsigned char *) 0x80005277b ""
+$110 = {0, 2, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$111 = (unsigned char *) 0x800052788 ""
+$112 = {0, 2, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$113 = (unsigned char *) 0x800052789 ""
+$114 = {0, 2, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$115 = (unsigned char *) 0x80005278a ""
+$116 = {0, 2, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$117 = (unsigned char *) 0x80005278b ""
+$118 = {0, 2, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$119 = (unsigned char *) 0x80005278c ""
+$120 = {0, 2, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$121 = (unsigned char *) 0x800052748 "\017\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$122 = {1, 0, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$123 = (unsigned char *) 0x800052749 "\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$124 = {1, 0, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$125 = (unsigned char *) 0x80005274a "\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$126 = {1, 0, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$127 = (unsigned char *) 0x80005274b "\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$128 = {1, 0, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$129 = (unsigned char *) 0x80005274c "\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$130 = {1, 0, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$131 = (unsigned char *) 0x80005274d "\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$132 = {1, 0, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$133 = (unsigned char *) 0x80005274e "\025\026\027\030\031\032\033\034\035\036\037 !\""
+$134 = {1, 0, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$135 = (unsigned char *) 0x80005274f "\026\027\030\031\032\033\034\035\036\037 !\""
+$136 = {1, 0, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$137 = (unsigned char *) 0x800052750 "\027\030\031\032\033\034\035\036\037 !\""
+$138 = {1, 0, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$139 = (unsigned char *) 0x800052751 "\030\031\032\033\034\035\036\037 !\""
+$140 = {1, 0, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$141 = (unsigned char *) 0x800052752 "\031\032\033\034\035\036\037 !\""
+$142 = {1, 0, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$143 = (unsigned char *) 0x800052753 "\032\033\034\035\036\037 !\""
+$144 = {1, 0, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$145 = (unsigned char *) 0x800052754 "\033\034\035\036\037 !\""
+$146 = {1, 0, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$147 = (unsigned char *) 0x800052755 "\034\035\036\037 !\""
+$148 = {1, 0, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$149 = (unsigned char *) 0x800052756 "\035\036\037 !\""
+$150 = {1, 0, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$151 = (unsigned char *) 0x800052757 "\036\037 !\""
+$152 = {1, 0, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$153 = (unsigned char *) 0x800052758 "\037 !\""
+$154 = {1, 0, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$155 = (unsigned char *) 0x800052759 " !\""
+$156 = {1, 0, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$157 = (unsigned char *) 0x80005275a "!\""
+$158 = {1, 0, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$159 = (unsigned char *) 0x80005275b "\""
+$160 = {1, 0, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$161 = (unsigned char *) 0x800052768 "#$%&'()*+,-./0123456"
+$162 = {1, 1, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$163 = (unsigned char *) 0x800052769 "$%&'()*+,-./0123456"
+$164 = {1, 1, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$165 = (unsigned char *) 0x80005276a "%&'()*+,-./0123456"
+$166 = {1, 1, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$167 = (unsigned char *) 0x80005276b "&'()*+,-./0123456"
+$168 = {1, 1, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$169 = (unsigned char *) 0x80005276c "'()*+,-./0123456"
+$170 = {1, 1, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$171 = (unsigned char *) 0x80005276d "()*+,-./0123456"
+$172 = {1, 1, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$173 = (unsigned char *) 0x80005276e ")*+,-./0123456"
+$174 = {1, 1, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$175 = (unsigned char *) 0x80005276f "*+,-./0123456"
+$176 = {1, 1, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$177 = (unsigned char *) 0x800052770 "+,-./0123456"
+$178 = {1, 1, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$179 = (unsigned char *) 0x800052771 ",-./0123456"
+$180 = {1, 1, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$181 = (unsigned char *) 0x800052772 "-./0123456"
+$182 = {1, 1, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$183 = (unsigned char *) 0x800052773 "./0123456"
+$184 = {1, 1, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$185 = (unsigned char *) 0x800052774 "/0123456"
+$186 = {1, 1, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$187 = (unsigned char *) 0x800052775 "0123456"
+$188 = {1, 1, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$189 = (unsigned char *) 0x800052776 "123456"
+$190 = {1, 1, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$191 = (unsigned char *) 0x800052777 "23456"
+$192 = {1, 1, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$193 = (unsigned char *) 0x800052778 "3456"
+$194 = {1, 1, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$195 = (unsigned char *) 0x800052779 "456"
+$196 = {1, 1, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$197 = (unsigned char *) 0x80005277a "56"
+$198 = {1, 1, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$199 = (unsigned char *) 0x80005277b "6"
+$200 = {1, 1, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$201 = (unsigned char *) 0x800052788 "789:;"
+$202 = {1, 2, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$203 = (unsigned char *) 0x800052789 "89:;"
+$204 = {1, 2, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$205 = (unsigned char *) 0x80005278a "9:;"
+$206 = {1, 2, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$207 = (unsigned char *) 0x80005278b ":;"
+$208 = {1, 2, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$209 = (unsigned char *) 0x80005278c ";"
+$210 = {1, 2, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$211 = (unsigned char *) 0x80005278d ""
+$212 = {1, 2, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$213 = (unsigned char *) 0x80005278e ""
+$214 = {1, 2, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$215 = (unsigned char *) 0x80005278f ""
+$216 = {1, 2, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$217 = (unsigned char *) 0x800052790 ""
+$218 = {1, 2, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$219 = (unsigned char *) 0x800052791 ""
+$220 = {1, 2, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$221 = (unsigned char *) 0x800052792 ""
+$222 = {1, 2, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$223 = (unsigned char *) 0x800052793 ""
+$224 = {1, 2, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$225 = (unsigned char *) 0x800052794 ""
+$226 = {1, 2, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$227 = (unsigned char *) 0x800052795 ""
+$228 = {1, 2, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$229 = (unsigned char *) 0x800052796 ""
+$230 = {1, 2, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$231 = (unsigned char *) 0x800052797 ""
+$232 = {1, 2, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$233 = (unsigned char *) 0x800052798 ""
+$234 = {1, 2, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$235 = (unsigned char *) 0x800052799 ""
+$236 = {1, 2, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$237 = (unsigned char *) 0x80005279a ""
+$238 = {1, 2, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$239 = (unsigned char *) 0x80005279b ""
+$240 = {1, 2, 3, 4}
+[Thread 24024.0x5730 exited with code 0]
+[Thread 24024.0x5494 exited with code 0]
+[Thread 24024.0x4fa8 exited with code 0]
+[Inferior 1 (process 24024) exited normally]
+init.gdb:19: Error in sourced command file:
+No symbol "array" in current context.
+Breakpoint 1 at 0x100401457: file src/main.c, line 65.
+[New Thread 9972.0x3b0c]
+[New Thread 9972.0x5bf0]
+warning: the debug information found in "/usr/lib/debug//usr/bin/cygwin1.dbg" does not match "/usr/bin/cygwin1.dll" (CRC mismatch).
+
+[New Thread 9972.0x5f04]
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$1 = (unsigned char *) 0x800052730 ""
+$2 = {0, 0, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$3 = (unsigned char *) 0x800052731 ""
+$4 = {0, 0, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$5 = (unsigned char *) 0x800052732 ""
+$6 = {0, 0, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$7 = (unsigned char *) 0x800052733 ""
+$8 = {0, 0, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$9 = (unsigned char *) 0x800052734 ""
+$10 = {0, 0, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$11 = (unsigned char *) 0x800052735 ""
+$12 = {0, 0, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$13 = (unsigned char *) 0x800052736 ""
+$14 = {0, 0, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$15 = (unsigned char *) 0x800052737 ""
+$16 = {0, 0, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$17 = (unsigned char *) 0x800052738 ""
+$18 = {0, 0, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$19 = (unsigned char *) 0x800052739 ""
+$20 = {0, 0, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$21 = (unsigned char *) 0x80005273a ""
+$22 = {0, 0, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$23 = (unsigned char *) 0x80005273b ""
+$24 = {0, 0, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$25 = (unsigned char *) 0x80005273c ""
+$26 = {0, 0, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$27 = (unsigned char *) 0x80005273d ""
+$28 = {0, 0, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$29 = (unsigned char *) 0x80005273e ""
+$30 = {0, 0, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$31 = (unsigned char *) 0x800052748 ""
+$32 = {0, 0, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$33 = (unsigned char *) 0x800052749 ""
+$34 = {0, 0, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$35 = (unsigned char *) 0x80005274a ""
+$36 = {0, 0, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$37 = (unsigned char *) 0x80005274b ""
+$38 = {0, 0, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$39 = (unsigned char *) 0x80005274c ""
+$40 = {0, 0, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$41 = (unsigned char *) 0x80005274d ""
+$42 = {0, 1, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$43 = (unsigned char *) 0x80005274e ""
+$44 = {0, 1, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$45 = (unsigned char *) 0x80005274f ""
+$46 = {0, 1, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$47 = (unsigned char *) 0x800052750 ""
+$48 = {0, 1, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$49 = (unsigned char *) 0x800052751 ""
+$50 = {0, 1, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$51 = (unsigned char *) 0x800052752 ""
+$52 = {0, 1, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$53 = (unsigned char *) 0x800052753 ""
+$54 = {0, 1, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$55 = (unsigned char *) 0x800052754 ""
+$56 = {0, 1, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$57 = (unsigned char *) 0x800052755 ""
+$58 = {0, 1, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$59 = (unsigned char *) 0x800052756 ""
+$60 = {0, 1, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$61 = (unsigned char *) 0x800052757 ""
+$62 = {0, 1, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$63 = (unsigned char *) 0x800052758 ""
+$64 = {0, 1, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$65 = (unsigned char *) 0x800052759 ""
+$66 = {0, 1, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$67 = (unsigned char *) 0x80005275a ""
+$68 = {0, 1, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$69 = (unsigned char *) 0x80005275b ""
+$70 = {0, 1, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$71 = (unsigned char *) 0x800052768 ""
+$72 = {0, 1, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$73 = (unsigned char *) 0x800052769 ""
+$74 = {0, 1, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$75 = (unsigned char *) 0x80005276a ""
+$76 = {0, 1, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$77 = (unsigned char *) 0x80005276b ""
+$78 = {0, 1, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$79 = (unsigned char *) 0x80005276c ""
+$80 = {0, 1, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$81 = (unsigned char *) 0x80005276d ""
+$82 = {0, 2, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$83 = (unsigned char *) 0x80005276e ""
+$84 = {0, 2, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$85 = (unsigned char *) 0x80005276f ""
+$86 = {0, 2, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$87 = (unsigned char *) 0x800052770 ""
+$88 = {0, 2, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$89 = (unsigned char *) 0x800052771 ""
+$90 = {0, 2, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$91 = (unsigned char *) 0x800052772 ""
+$92 = {0, 2, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$93 = (unsigned char *) 0x800052773 ""
+$94 = {0, 2, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$95 = (unsigned char *) 0x800052774 ""
+$96 = {0, 2, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$97 = (unsigned char *) 0x800052775 ""
+$98 = {0, 2, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$99 = (unsigned char *) 0x800052776 ""
+$100 = {0, 2, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$101 = (unsigned char *) 0x800052777 ""
+$102 = {0, 2, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$103 = (unsigned char *) 0x800052778 ""
+$104 = {0, 2, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$105 = (unsigned char *) 0x800052779 ""
+$106 = {0, 2, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$107 = (unsigned char *) 0x80005277a ""
+$108 = {0, 2, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$109 = (unsigned char *) 0x80005277b ""
+$110 = {0, 2, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$111 = (unsigned char *) 0x800052788 ""
+$112 = {0, 2, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$113 = (unsigned char *) 0x800052789 ""
+$114 = {0, 2, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$115 = (unsigned char *) 0x80005278a ""
+$116 = {0, 2, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$117 = (unsigned char *) 0x80005278b ""
+$118 = {0, 2, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$119 = (unsigned char *) 0x80005278c ""
+$120 = {0, 2, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$121 = (unsigned char *) 0x800052748 "\017\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$122 = {1, 0, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$123 = (unsigned char *) 0x800052749 "\020\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$124 = {1, 0, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$125 = (unsigned char *) 0x80005274a "\021\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$126 = {1, 0, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$127 = (unsigned char *) 0x80005274b "\022\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$128 = {1, 0, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$129 = (unsigned char *) 0x80005274c "\023\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$130 = {1, 0, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$131 = (unsigned char *) 0x80005274d "\024\025\026\027\030\031\032\033\034\035\036\037 !\""
+$132 = {1, 0, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$133 = (unsigned char *) 0x80005274e "\025\026\027\030\031\032\033\034\035\036\037 !\""
+$134 = {1, 0, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$135 = (unsigned char *) 0x80005274f "\026\027\030\031\032\033\034\035\036\037 !\""
+$136 = {1, 0, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$137 = (unsigned char *) 0x800052750 "\027\030\031\032\033\034\035\036\037 !\""
+$138 = {1, 0, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$139 = (unsigned char *) 0x800052751 "\030\031\032\033\034\035\036\037 !\""
+$140 = {1, 0, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$141 = (unsigned char *) 0x800052752 "\031\032\033\034\035\036\037 !\""
+$142 = {1, 0, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$143 = (unsigned char *) 0x800052753 "\032\033\034\035\036\037 !\""
+$144 = {1, 0, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$145 = (unsigned char *) 0x800052754 "\033\034\035\036\037 !\""
+$146 = {1, 0, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$147 = (unsigned char *) 0x800052755 "\034\035\036\037 !\""
+$148 = {1, 0, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$149 = (unsigned char *) 0x800052756 "\035\036\037 !\""
+$150 = {1, 0, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$151 = (unsigned char *) 0x800052757 "\036\037 !\""
+$152 = {1, 0, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$153 = (unsigned char *) 0x800052758 "\037 !\""
+$154 = {1, 0, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$155 = (unsigned char *) 0x800052759 " !\""
+$156 = {1, 0, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$157 = (unsigned char *) 0x80005275a "!\""
+$158 = {1, 0, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$159 = (unsigned char *) 0x80005275b "\""
+$160 = {1, 0, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$161 = (unsigned char *) 0x800052768 "#$%&'()*+,-./0123456"
+$162 = {1, 1, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$163 = (unsigned char *) 0x800052769 "$%&'()*+,-./0123456"
+$164 = {1, 1, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$165 = (unsigned char *) 0x80005276a "%&'()*+,-./0123456"
+$166 = {1, 1, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$167 = (unsigned char *) 0x80005276b "&'()*+,-./0123456"
+$168 = {1, 1, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$169 = (unsigned char *) 0x80005276c "'()*+,-./0123456"
+$170 = {1, 1, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$171 = (unsigned char *) 0x80005276d "()*+,-./0123456"
+$172 = {1, 1, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$173 = (unsigned char *) 0x80005276e ")*+,-./0123456"
+$174 = {1, 1, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$175 = (unsigned char *) 0x80005276f "*+,-./0123456"
+$176 = {1, 1, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$177 = (unsigned char *) 0x800052770 "+,-./0123456"
+$178 = {1, 1, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$179 = (unsigned char *) 0x800052771 ",-./0123456"
+$180 = {1, 1, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$181 = (unsigned char *) 0x800052772 "-./0123456"
+$182 = {1, 1, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$183 = (unsigned char *) 0x800052773 "./0123456"
+$184 = {1, 1, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$185 = (unsigned char *) 0x800052774 "/0123456"
+$186 = {1, 1, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$187 = (unsigned char *) 0x800052775 "0123456"
+$188 = {1, 1, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$189 = (unsigned char *) 0x800052776 "123456"
+$190 = {1, 1, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$191 = (unsigned char *) 0x800052777 "23456"
+$192 = {1, 1, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$193 = (unsigned char *) 0x800052778 "3456"
+$194 = {1, 1, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$195 = (unsigned char *) 0x800052779 "456"
+$196 = {1, 1, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$197 = (unsigned char *) 0x80005277a "56"
+$198 = {1, 1, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$199 = (unsigned char *) 0x80005277b "6"
+$200 = {1, 1, 3, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$201 = (unsigned char *) 0x800052788 "789:;"
+$202 = {1, 2, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$203 = (unsigned char *) 0x800052789 "89:;"
+$204 = {1, 2, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$205 = (unsigned char *) 0x80005278a "9:;"
+$206 = {1, 2, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$207 = (unsigned char *) 0x80005278b ":;"
+$208 = {1, 2, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$209 = (unsigned char *) 0x80005278c ";"
+$210 = {1, 2, 0, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$211 = (unsigned char *) 0x80005278d ""
+$212 = {1, 2, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$213 = (unsigned char *) 0x80005278e ""
+$214 = {1, 2, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$215 = (unsigned char *) 0x80005278f ""
+$216 = {1, 2, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$217 = (unsigned char *) 0x800052790 ""
+$218 = {1, 2, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$219 = (unsigned char *) 0x800052791 ""
+$220 = {1, 2, 1, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$221 = (unsigned char *) 0x800052792 ""
+$222 = {1, 2, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$223 = (unsigned char *) 0x800052793 ""
+$224 = {1, 2, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$225 = (unsigned char *) 0x800052794 ""
+$226 = {1, 2, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$227 = (unsigned char *) 0x800052795 ""
+$228 = {1, 2, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$229 = (unsigned char *) 0x800052796 ""
+$230 = {1, 2, 2, 4}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$231 = (unsigned char *) 0x800052797 ""
+$232 = {1, 2, 3, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$233 = (unsigned char *) 0x800052798 ""
+$234 = {1, 2, 3, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$235 = (unsigned char *) 0x800052799 ""
+$236 = {1, 2, 3, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$237 = (unsigned char *) 0x80005279a ""
+$238 = {1, 2, 3, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:65
+65						array[i][j][k][m] = n++;
+$239 = (unsigned char *) 0x80005279b ""
+$240 = {1, 2, 3, 4}
+[Thread 9972.0x5534 exited with code 0]
+[Thread 9972.0x3b0c exited with code 0]
+[Thread 9972.0x5bf0 exited with code 0]
+[Inferior 1 (process 9972) exited normally]
+init.gdb:19: Error in sourced command file:
+No symbol "array" in current context.
+Breakpoint 1 at [34m0x10040161f[m: file [32msrc/main.c[m, line 99.
+[New Thread 11812.0x5df0]
+warning: the debug information found in "/usr/lib/debug//usr/bin/cygwin1.dbg" does not match "/usr/bin/cygwin1.dll" (CRC mismatch).
+
+[New Thread 11812.0x5118]
+[New Thread 11812.0x5234]
+
+Thread 1 "test" hit Breakpoint 1, [33mmain[m () at [32msrc/main.c[m:99
+99					[01;30mprintf[m[31m([m[31m"%3d, "[m[31m,[m [31m([m[32mint[m[31m)[m array[31m[[mi[31m][[mj[31m][[mk[31m]);[m
+init.gdb:19: Error in sourced command file:
+No symbol "m" in current context.
+Breakpoint 1 at [34m0x10040161f[m: file [32msrc/main.c[m, line 99.
+[New Thread 15604.0x576c]
+[New Thread 15604.0x54f4]
+warning: the debug information found in "/usr/lib/debug//usr/bin/cygwin1.dbg" does not match "/usr/bin/cygwin1.dll" (CRC mismatch).
+
+[New Thread 15604.0x51a0]
+
+Thread 1 "test" hit Breakpoint 1, [33mmain[m () at [32msrc/main.c[m:99
+99					[01;30mprintf[m[31m([m[31m"%3d, "[m[31m,[m [31m([m[32mint[m[31m)[m array[31m[[mi[31m][[mj[31m][[mk[31m]);[m
+$1 = (unsigned char *) [34m0x80003a4d0[m ""
+init.gdb:19: Error in sourced command file:
+No symbol "m" in current context.
+Breakpoint 1 at 0x10040161f: file src/main.c, line 99.
+[New Thread 20664.0x37e8]
+[New Thread 20664.0x5ec0]
+warning: the debug information found in "/usr/lib/debug//usr/bin/cygwin1.dbg" does not match "/usr/bin/cygwin1.dll" (CRC mismatch).
+
+[New Thread 20664.0x5270]
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$1 = (unsigned char *) 0x80003a4d0 ""
+$2 = {0, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$3 = (unsigned char *) 0x80003a4d1 "\001\002\003\b"
+$4 = {0, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$5 = (unsigned char *) 0x80003a4d2 "\002\003\b"
+$6 = {0, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$7 = (unsigned char *) 0x80003a4d3 "\003\b"
+$8 = {0, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$9 = (unsigned char *) 0x80003a4f0 "\240\272+\200\001"
+$10 = {0, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$11 = (unsigned char *) 0x80003a4f1 "\272+\200\001"
+$12 = {0, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$13 = (unsigned char *) 0x80003a4f2 "+\200\001"
+$14 = {0, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$15 = (unsigned char *) 0x80003a4f3 "\200\001"
+$16 = {0, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$17 = (unsigned char *) 0x80003a510 "\210\001"
+$18 = {0, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$19 = (unsigned char *) 0x80003a511 "\001"
+$20 = {0, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$21 = (unsigned char *) 0x80003a512 ""
+$22 = {0, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$23 = (unsigned char *) 0x80003a513 ""
+$24 = {0, 2, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$25 = (unsigned char *) 0x80003a530 "\f\r\016\017\b"
+$26 = {1, 0, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$27 = (unsigned char *) 0x80003a531 "\r\016\017\b"
+$28 = {1, 0, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$29 = (unsigned char *) 0x80003a532 "\016\017\b"
+$30 = {1, 0, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$31 = (unsigned char *) 0x80003a533 "\017\b"
+$32 = {1, 0, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$33 = (unsigned char *) 0x80003a550 "\020\021\022\023\b"
+$34 = {1, 1, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$35 = (unsigned char *) 0x80003a551 "\021\022\023\b"
+$36 = {1, 1, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$37 = (unsigned char *) 0x80003a552 "\022\023\b"
+$38 = {1, 1, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$39 = (unsigned char *) 0x80003a553 "\023\b"
+$40 = {1, 1, 3}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$41 = (unsigned char *) 0x80003a570 "\024\025\026\027\b"
+$42 = {1, 2, 0}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$43 = (unsigned char *) 0x80003a571 "\025\026\027\b"
+$44 = {1, 2, 1}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$45 = (unsigned char *) 0x80003a572 "\026\027\b"
+$46 = {1, 2, 2}
+
+Thread 1 "test" hit Breakpoint 1, main () at src/main.c:99
+99					printf("%3d, ", (int) array[i][j][k]);
+$47 = (unsigned char *) 0x80003a573 "\027\b"
+$48 = {1, 2, 3}
+[Thread 20664.0x37e8 exited with code 0]
+[Thread 20664.0x568c exited with code 0]
+[Thread 20664.0x5270 exited with code 0]
+[Inferior 1 (process 20664) exited normally]
+init.gdb:19: Error in sourced command file:
+No symbol "array" in current context.
