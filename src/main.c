@@ -97,7 +97,7 @@ void * allocate_n_dimension_array(size_t bytesize, int n, ...){
 
 
 int main(void){
-	int *** array = allocate_n_dimension_array(sizeof(int), 3,2,3,4);
+	char *** array = allocate_n_dimension_array(sizeof(char), 3,2,3,4);
 
 	unsigned int n = 0;
 	for (int a = 0; a < 2; a++){
