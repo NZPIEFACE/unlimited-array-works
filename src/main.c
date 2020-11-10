@@ -27,14 +27,15 @@ void recurse(void *** reference, int * dim_sizes, int * tier_sizes, int depth, i
 }
 
 void iterate(void *** reference, int * dim_sizes, int * tier_sizes, int dimensions, size_t bytesize){
+	// Initializing variables for the loop.
 	int depth = 0;
-	int next_dimension;
-	int current_tier;
+	int next_dimension = 0;
+	int current_tier = 0;
 	void ** a = *reference;
-	void ** b;
+	void ** b = NULL;
 
 	// Linking pointers to memory locations in the rest of the memory block.
-	while (depth < dimensions - 1){
+	while (depth < dimensions - 2){
 		next_dimension = dim_sizes[depth+1];
 		current_tier = tier_sizes[depth];
 		b = &(a)[tier_sizes[depth]];
@@ -43,16 +44,23 @@ void iterate(void *** reference, int * dim_sizes, int * tier_sizes, int dimensio
 			a[i] = &(b)[i * next_dimension];
 		}
 
+		// Iterating to the next depth of the loop.
 		depth++;
 		a = &b[0];
 	}
 
 	// Explicitly assigning to a char ptr.
-	char * c = &(a)[tier_sizes[dimensions-1]];
+	char * c = &(a)[tier_sizes[dimensions-2]];
 
 	// Assigning memory to the size of the byte.
-	for (int i = 0; i < tier_sizes[dimensions-1]; i++){
-		a[i] = c + bytesize * i;
+	for (int i = 0; i < tier_sizes[dimensions-2]; i++){
+		a[i] = c + bytesize * i * dim_sizes[dimensions-1];
+		char * d = a[i];
+
+		// Blanking the default memory.
+		for (unsigned int j = 0; j < bytesize * dim_sizes[dimensions-1]; j++){
+			*d++ = 0;
+		}
 	}
 	return;
 }
@@ -72,9 +80,8 @@ void * allocate_n_dimension_array(size_t bytesize, int n, ...){
 		tier_size[i] = product;
 		sum += product;
 	}
-	sum -= tier_size[n-1];
 
-	size_t total_size = sum * sizeof(void*) + tier_size[n-1] * bytesize;
+	size_t total_size = (sum - tier_size[n-1]) * sizeof(void*) + tier_size[n-1] * bytesize;
 
 	void * a = malloc(total_size);
 
@@ -90,43 +97,21 @@ void * allocate_n_dimension_array(size_t bytesize, int n, ...){
 
 
 int main(void){
-	printf("\r");
+	int *** array = allocate_n_dimension_array(sizeof(int), 3,2,3,4);
 
- 	int ******** array = allocate_n_dimension_array(sizeof(int), 8, 2,2,2,2,2,2,2,2);
-
-	//unsigned int n = 0;
+	unsigned int n = 0;
 	for (int a = 0; a < 2; a++){
-		for (int b = 0; b < 2; b++){
-			for (int c = 0; c < 2; c++){
-				for (int d = 0; d < 2; d++){
-					for (int e = 0; e < 2; e++){
-						for (int f = 0; f < 2 ; f++){
-							for (int g = 0; g < 2; g++){
-								for (int h = 0; h < 2; h++){
-									//array[a][b][c][d][e][f][g][h] = n++;
-								}
-							}
-						}
-					}
-				}
+		for (int b = 0; b < 3; b++){
+			for (int c = 0; c < 4; c++){
+				array[a][b][c] = n++;
 			}
 		}
 	}
 
 	for (int a = 0; a < 2; a++){
-		for (int b = 0; b < 2; b++){
-			for (int c = 0; c < 2; c++){
-				for (int d = 0; d < 2; d++){
-					for (int e = 0; e < 2; e++){
-						for (int f = 0; f < 2 ; f++){
-							for (int g = 0; g < 2; g++){
-								for (int h = 0; h < 2; h++){
-									printf("%d, ", array[a][b][c][d][e][f][g][h]);
-								}
-							}
-						}
-					}
-				}
+		for (int b = 0; b < 3; b++){
+			for (int c = 0; c < 4; c++){
+				printf("%d, ", array[a][b][c]);
 			}
 		}
 	}
