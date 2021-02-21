@@ -5,6 +5,8 @@
 
 #include <allocate_n_dimension_array.h>
 
+// Function I can't get working
+/*
 void recurse(void *** reference, int * dim_sizes, int * tier_sizes, int depth, int dimensions, size_t bytesize){
 	void ** a = *reference;
 	void ** b = &(a)[tier_sizes[depth]];
@@ -27,38 +29,43 @@ void recurse(void *** reference, int * dim_sizes, int * tier_sizes, int depth, i
 
 	return;
 }
+*/
 
 
-
+// Iterative version of the function
+	// reference is the memory address of the array
 void iterate(void *** reference, int * dim_sizes, int * tier_sizes, int dimensions, size_t bytesize){
 	// Initializing variables for the loop.
 	int depth = 0;
-	int next_dimension = 0;
-	int current_tier = 0;
-	void ** a = *reference;
-	void ** b = NULL;
+	int next_dimension_size = 0;
+	int current_tier_size = 0;
+	void ** address = *reference; // Location of the first bit of memory in the array
+	void ** destination = NULL;
 
 	// Linking pointers to memory locations in the rest of the memory block.
 	while (depth < dimensions - 2){
-		next_dimension = dim_sizes[depth+1];
-		current_tier = tier_sizes[depth];
-		b = &(a)[tier_sizes[depth]];
+		next_dimension_size = dim_sizes[depth+1];
+		current_tier_size = tier_sizes[depth];
 
-		for (int i = 0; i < current_tier; i++){
-			a[i] = &(b)[i * next_dimension];
+		// The first destination is the first bit of memory after the current tier
+		destination = &(address[current_tier_size]);
+
+		// Link the address of the destination to the current tier
+		for (int i = 0; i < current_tier_size; i++){
+			address[i] = (void *) &(destination[i * next_dimension_size]);
 		}
 
 		// Iterating to the next depth of the loop.
 		depth++;
-		a = &b[0];
+		address = destination; 
 	}
 
-	// Explicitly assigning to a char ptr.
-	char * c = &(a)[tier_sizes[dimensions-2]];
+	// Explicitly assigning to a char pointer since char has size of 1.
+	char * storage_start = &(address[tier_sizes[depth]]);
 
-	// Assigning memory to the size of the byte.
-	for (int i = 0; i < tier_sizes[dimensions-2]; i++){
-		a[i] = c + bytesize * i * dim_sizes[dimensions-1];
+	// Assigning memory to the size of the deepest array.
+	for (int i = 0; i < tier_sizes[depth]; i++){
+		address[i] = storage_start + dim_sizes[dimensions-1] * bytesize * i;
 	}
 	return;
 }
@@ -72,21 +79,25 @@ void * allocate_n_dimension_array(size_t bytesize, int n, ...){
 
 	int product = 1;
 	int sum = 0;
+
 	for (int i = 0; i < n; i++){
 		dim_size[i] = va_arg(valist, int);
-		product *= dim_size[i];
+		product *= dim_size[i]; // Size of a tier is the product of all dimensions up to that point
 		tier_size[i] = product;
-		sum += product;
+
+		sum += product; // Running sum for the total size
 	}
 
-	size_t total_size = (sum - tier_size[n-1]) * sizeof(void*) + tier_size[n-1] * bytesize;
-
+	// The first tiers are all pointers. The last tier is the stored information.
+	size_t total_size = (sum - tier_size[n-1]) * sizeof(void *) + tier_size[n-1] * bytesize;
 	void * a = calloc(1, total_size);
 
+	// Explicit casting to void *** since void ** and void * is required
 	iterate((void ***) &a, dim_size, tier_size, n, bytesize);
 
 	va_end(valist);
 	free(dim_size);
 	free(tier_size);
+
 	return a;
 }

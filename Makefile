@@ -3,7 +3,7 @@ LIBS = -lm
 
 TARGET = test
 
-_SRCS = main
+_SRCS = main allocate_n_dimension_array
 _HEAD = 
 
 SRC_DIR = src/
