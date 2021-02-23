@@ -34,7 +34,7 @@ void recurse(void *** reference, int * dim_sizes, int * tier_sizes, int depth, i
 
 // Iterative version of the function
 	// reference is the memory address of the array
-void iterate(ptr_array_ptr reference, int * dim_sizes, int * tier_sizes, int dimensions, size_t bytesize){
+void iterate(const ptr_array_ptr reference, const int dimensions, const size_t bytesize, const int * dim_sizes, const int * tier_sizes){
 	// Initializing variables for the loop.
 	int depth = 0;
 	int next_dimension_size = 0;
@@ -61,7 +61,7 @@ void iterate(ptr_array_ptr reference, int * dim_sizes, int * tier_sizes, int dim
 	}
 
 	// Explicitly assigning to a char pointer since char has size of 1.
-	char * storage_start = &(address[tier_sizes[depth]]);
+	char * storage_start = (char *) &(address[tier_sizes[depth]]);
 
 	// Assigning memory to the size of the deepest array.
 	for (int i = 0; i < tier_sizes[depth]; i++){
@@ -70,18 +70,13 @@ void iterate(ptr_array_ptr reference, int * dim_sizes, int * tier_sizes, int dim
 	return;
 }
 
-void * allocate_n_dimension_array(size_t bytesize, int n, ...){
-	va_list valist;
-	va_start(valist, n);
-
-	int * dim_size = malloc(sizeof(int) * n);
+void * allocate_n_dimension_array(const size_t bytesize, const int n, const int * dim_size){
 	int * tier_size = malloc(sizeof(int) * n);
 
 	int product = 1;
 	int sum = 0;
 
 	for (int i = 0; i < n; i++){
-		dim_size[i] = va_arg(valist, int);
 		product *= dim_size[i]; // Size of a tier is the product of all dimensions up to that point
 		tier_size[i] = product;
 
@@ -93,10 +88,8 @@ void * allocate_n_dimension_array(size_t bytesize, int n, ...){
 	void * a = calloc(1, total_size);
 
 	// Explicit casting to void *** since void ** and void * is required
-	iterate((ptr_array_ptr) &a, dim_size, tier_size, n, bytesize);
+	iterate((ptr_array_ptr) &a, n, bytesize, dim_size, tier_size);
 
-	va_end(valist);
-	free(dim_size);
 	free(tier_size);
 
 	return a;

@@ -9,7 +9,7 @@
 
 
 int main(void){
-	char *** array = allocate_n_dimension_array(sizeof(char), 3, 2, 2, 2);
+	int *** array = allocate_n_dimension_array(sizeof(int), 3, (int[]){2, 2, 2});
 
 	for (int i = 0; i < 14;){
 		printf("%p, %p", (void *) &array[i], (void *) array[i]);
@@ -35,7 +35,7 @@ int main(void){
 			for (int k = 0; k < 2; k++){
 				array[i][j][k] = n++;
 
-				printf("%p, %d\n", &array[i][j][k], array[i][j][k]);
+				printf("%p, %d\n", (void *) &array[i][j][k], array[i][j][k]);
 			}
 		}
 	}
