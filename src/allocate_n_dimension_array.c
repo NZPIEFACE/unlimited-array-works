@@ -34,13 +34,13 @@ void recurse(void *** reference, int * dim_sizes, int * tier_sizes, int depth, i
 
 // Iterative version of the function
 	// reference is the memory address of the array
-void iterate(void *** reference, int * dim_sizes, int * tier_sizes, int dimensions, size_t bytesize){
+void iterate(ptr_array_ptr reference, int * dim_sizes, int * tier_sizes, int dimensions, size_t bytesize){
 	// Initializing variables for the loop.
 	int depth = 0;
 	int next_dimension_size = 0;
 	int current_tier_size = 0;
-	void ** address = *reference; // Location of the first bit of memory in the array
-	void ** destination = NULL;
+	ptr_array address = *reference; // Location of the first bit of memory in the array
+	ptr_array destination = NULL;
 
 	// Linking pointers to memory locations in the rest of the memory block.
 	while (depth < dimensions - 2){
@@ -93,7 +93,7 @@ void * allocate_n_dimension_array(size_t bytesize, int n, ...){
 	void * a = calloc(1, total_size);
 
 	// Explicit casting to void *** since void ** and void * is required
-	iterate((void ***) &a, dim_size, tier_size, n, bytesize);
+	iterate((ptr_array_ptr) &a, dim_size, tier_size, n, bytesize);
 
 	va_end(valist);
 	free(dim_size);
